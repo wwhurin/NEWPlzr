@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="200dp"
+        android:paddingLeft="80dp"
+        >
+        <ImageView
+            android:layout_width="650dp"
+            android:layout_height="850dp"
+            android:background="@drawable/login_bg"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="550dp"
+        android:paddingLeft="140dp"
+        >
+        <EditText
+            android:id="@+id/TId"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"
+            />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="650dp"
+    android:paddingLeft="140dp"
+    >
+    <EditText
+        android:id="@+id/TPwd"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="750dp"
+        android:paddingLeft="140dp"
+        >
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:background="@drawable/login_btn"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="470dp"
+        android:paddingLeft="160dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="820dp"
+        android:paddingLeft="360dp"
+        >
+        <Button
+            android:id="@+id/join_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff0000"
+            android:text="Join"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
