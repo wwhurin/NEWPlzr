@@ -26,10 +26,12 @@
 
 
                 <Button
+                    android:id="@+id/Bupdate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="수정" />
                 <Button
+                    android:id="@+id/BDelete"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="삭제" />

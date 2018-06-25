@@ -43,6 +43,24 @@
             android:textSize="30dp"
             />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="740dp"
+        android:paddingLeft="650dp"
+        >
+
+        <Button
+            android:id="@+id/Binsert"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/add_button"
+            />
+
+    </LinearLayout>
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,6 +68,7 @@
         android:paddingLeft="150dp"
         >
         <EditText
+            android:id="@+id/TName"
             android:layout_width="500dp"
             android:layout_height="wrap_content"
             android:text="NAME"
@@ -142,7 +161,7 @@
         android:paddingLeft="150dp"
         >
 
-        <EditText android:id="@+id/EditText02"
+        <EditText android:id="@+id/Tcontent"
             android:layout_width="500dp" android:layout_height="wrap_content"
             android:lines="5" android:gravity="top|left" android:inputType="textMultiLine"
             android:scrollHorizontally="false"
@@ -153,20 +172,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="740dp"
-        android:paddingLeft="650dp"
-        >
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@drawable/add_button"
-            />
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -199,11 +205,12 @@
         android:paddingLeft="250dp"
         android:paddingTop="730dp"
         >
+
         <android.support.v7.widget.RecyclerView
-            android:paddingTop="150dp"
             android:id="@+id/recyclerview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_width="326dp"
+            android:layout_height="match_parent"
+            android:paddingTop="150dp" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
